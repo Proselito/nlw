@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 app.use(routes)
 
-//Rota: endereço completo da requisição. carangueijo
+//Rota: endereço completo da requisição.
 //Recurso: entidade a ser acessada.
 //Get: quando queremos buscar informação, post: quando queremos criar um novo usuário, put: quando queremos atualizar dado, delete: deletar, eliminar o usuário. as rotas são semânticas.
 //Request param: parâmetros que vem na própria rota que identificam um recurso.
